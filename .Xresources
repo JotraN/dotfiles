@@ -1,0 +1,90 @@
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+! -- Title:     skigh
+! -- Author:    dkeg 
+! -- Created:   2016
+#define bg    #2e384b
+#define blk   #323c51
+#define bblk  #525863
+#define fg    #bab7b5
+#define red   #916855
+#define grn   #6f7f71
+#define ylw   #b39580
+#define blu   #546780
+#define mag   #84787d
+#define cyn   #556f86
+#define wht   #bab7b5
+
+! special
+*.foreground:   fg
+*.background:   bg
+*fading:                40
+*fadeColor:             S_base3
+*cursorColor:           S_base01
+*pointerColorBackground:S_base1
+*pointerColorForeground:S_base01
+
+!! black dark/light
+*color0:                blk
+*color8:                S_base03
+
+!! red dark/light
+*color1:                red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                grn
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                ylw
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                blu
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                mag
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                cyn
+*color14:               S_base1
+
+!! white dark/light
+*color7:                wht
+*color15:               S_base3
+
+! xterm ----------------------------------------------------------------------
+xterm*faceName:           Terminus:style=Regular:size=09
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     false
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+! Forbid bold font faces; make it blue
+xterm*colorBDMode:		  true
+xterm*colorBD:			  #676477
+xterm*selectToClipboard:  true
+xterm*borderWidth:		  0	

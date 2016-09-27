@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-fill '/media/Documents/Python/scripts/wallpapers/wallpaper.png' 
