@@ -167,17 +167,6 @@ bar {
 		}
 }
 
-# Floating mode
-for_window [class="Wine"] floating enable
-for_window [class="KOTOR2"] floating enable
-# Push bullet
-for_window [title="Quick-Reply"] floating enable, move absolute position 1605 705
-# for_window [title="Quick-Reply"] floating enable
-for_window [class="Skype"] floating enable
-for_window [title="Genymotion for personal"] floating enable
-# for_window [title="Chromium Notifications"] floating enable
-# for_window [class="Steam" title="^Steam$"] floating enable
-
 # Lock screen and turn off monitor and change wallpaper
 bindsym $mod+Shift+Ctrl+l exec sh ~/lock.sh &
 
